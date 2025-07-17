@@ -34,7 +34,7 @@
     "publicIPAddressType": "static",
     "vhdStorageContainerName": "vhds",
     "vmName": "az500-10-vm1",
-    "vmSize": "Standard_DS2_V2",
+    "vmSize": "Standard_D2ds_V4",
     "virtualNetworkName": "az500-10-vnet1",
     "vnetId": "[resourceId('Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "networkSecurityGroupName": "az500-10-nsg1",
@@ -62,7 +62,7 @@
       "kind": "Storage"
     },
     {
-      "apiVersion": "2016-03-30",
+      "apiVersion": "2018-12-01",
       "type": "Microsoft.Network/publicIPAddresses",
       "name": "[variables('publicIPAddressName')]",
       "location": "[resourceGroup().location]",
@@ -71,6 +71,9 @@
       },
       "properties": {
         "publicIPAllocationMethod": "[variables('publicIPAddressType')]"
+        "sku": {
+        "name": "Standard"
+	 },
       }
     },
     {
@@ -158,10 +161,7 @@
             "version": "latest"
           },
           "osDisk": {
-            "name": "osdisk",
-            "vhd": {
-              "uri": "[concat(reference(resourceId('Microsoft.Storage/storageAccounts', variables('vhdStorageAccountName')), '2016-01-01').primaryEndpoints.blob, variables('vhdStorageContainerName'), '/', variables('OSDiskName'), '.vhd')]"
-            },
+            "name": "jumpvmosdisk",
             "caching": "ReadWrite",
             "createOption": "FromImage"
           }
