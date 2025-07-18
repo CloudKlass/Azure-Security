@@ -156,6 +156,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 
    |Setting|Value|
    |---|---|
+   |Availability zones |**None** Clear the tick bowes for all zones|
    |Scale method|**Manual**|
    |Node count|**1**|
 	
