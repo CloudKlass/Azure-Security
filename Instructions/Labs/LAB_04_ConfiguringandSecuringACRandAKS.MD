@@ -173,7 +173,7 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 
     >**Note**: AKS can be configured as a private cluster. This assigns a private IP to the API server to ensure network traffic between your API server and your node pools remains on the private network only. For more information, visit [Create a private Azure Kubernetes Service cluster](https://docs.microsoft.com/en-us/azure/aks/private-clusters) page.
 
-7. Click **Next: Integrations >** and, on the **Integrations** tab of the **Create Kubernetes cluster** blade, set **Container monitoring** to **Disabled**. 
+7. Click **Next: Integrations >** and, on the **Integrations** then next to the Monitoring tab, set **Container monitoring** to **Disabled** by removing all tick from the boxes. 
 
     >**Note**: In production scenarios, you would want to enable monitoring. Monitoring is disabled in this case since it is not covered in the lab. 
 
@@ -245,7 +245,7 @@ In this task, you will grant the AKS cluster permission to access the ACR and ma
 
 In this task,  you will download the Manifest files, edit the YAML file, and apply your changes to the cluster. 
 
-1. In the Bash session within the Cloud Shell pane, click the **Upload/Download files** icon, in the drop-down menu, click **Upload**, in the **Open** dialog box, naviate to the location where you downloaded the lab files, select **\\Allfiles\\Labs\\09\\nginxexternal.yaml** click **Open**. Next, select **\\Allfiles\\Labs\\09\\nginxinternal.yaml**, and click **Open**.
+1. In the Bash session within the Cloud Shell pane, click Editor and then confirm you will need to use the classsic shell to edit the files, click the **Upload/Download files** icon, in the drop-down menu, click **Upload**, in the **Open** dialog box, naviate to the location where you downloaded the lab files, select **\\Allfiles\\Labs\\09\\nginxexternal.yaml** click **Open**. Next, select **\\Allfiles\\Labs\\09\\nginxinternal.yaml**, and click **Open**.
 
 2. In the Bash session within the Cloud Shell pane, run the following to identify the name of the Azure Container Registry instance:
 
@@ -265,7 +265,7 @@ In this task,  you will download the Manifest files, edit the YAML file, and app
 
 4. In the editor pane, scroll down to **line 24** and replace the **`<ACRUniquename>`** placeholder with the ACR name.
 
-5. In the editor pane, in the upper right corner, click the **ellipses** icon, click **Save** and then click **Close editor**. 
+5. In the editor pane, in the upper right corner, place your mouse until you see a popup saying more, click on the link, click **Save** and then click **Close editor**. 
 
 6. In the Bash session within the Cloud Shell pane, run the following to apply the change to the cluster:
 
@@ -310,7 +310,7 @@ In this task, you will deploy the internal facing service on the AKS.
 
 2. In the editor pane, scroll down to the line containing the reference to the container image and replace the **`<ACRUniquename>`** placeholder with the ACR name.
 
-3. In the editor pane, in the upper right corner, click the **ellipses** icon, click **Save** and then click **Close editor**. 
+3. In the editor pane, in the upper right corner, place your mouse until you see a popup saying more, click on the link, click **Save** and then click **Close editor** 
 
 4. In the Bash session within the Cloud Shell pane, run the following to apply the change to the cluster:
 
