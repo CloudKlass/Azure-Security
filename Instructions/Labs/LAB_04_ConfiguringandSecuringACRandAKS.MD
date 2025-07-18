@@ -159,6 +159,8 @@ In this task, you will create an Azure Kubernetes service and review the deploye
    |Availability zones |**None** Clear the tick bowes for all zones|
    |Scale method|**Manual**|
    |Node count|**1**|
+
+5. Click update.
 	
 5. Click **Next: Access >**, on the **Access** tab of the **Create Kubernetes cluster** blade, accept the defaults, and click **Next: Networking >**. 
 
