@@ -143,14 +143,21 @@ In this task, you will create an Azure Kubernetes service and review the deploye
     |Kubernetes cluster name|**MyKubernetesCluster**|
     |Region|**(US) East US**|
     |Availability zones |**None**|
-    |Scale method|**Manual**|
-    |Node count|**1**|
+  
 
 4. Click **Next: Node Pools >** and, on the **Node Pools** tab of the **Create Kubernetes cluster** blade, specify the following settings (leave others with their default values):
 
     |Setting|Value|
     |----|----|
     |Enable virtual nodes|cleared checkbox|
+
+
+5. Open the link for the **agentpool** and set the follow items
+
+   |Setting|Value|
+   |---|---|
+   |Scale method|**Manual**|
+   |Node count|**1**|
 	
 5. Click **Next: Access >**, on the **Access** tab of the **Create Kubernetes cluster** blade, accept the defaults, and click **Next: Networking >**. 
 
