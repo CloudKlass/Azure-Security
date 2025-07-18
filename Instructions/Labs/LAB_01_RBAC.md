@@ -308,18 +308,20 @@ In this exercise, you will complete the following tasks:
    |Role in the search tab|**Virtual Machine Contributor**|
    |Assign access to (Under Members Pane)|**User, group, or service principal**|
    |Select (+Select Members)|**Service Desk**|
+   
+6. Click next, on the Assignment type tab seclect Active.
 
-6. Click **Review + assign** twice to create the role assignment.
+7. Click **Review + assign** twice to create the role assignment.
 
-7. From the **Access control (IAM)** blade, select **Role assignments**.
+8. From the **Access control (IAM)** blade, select **Role assignments**.
 
-8. On the **AZ500Lab01 \| Access control (IAM)** blade, on the **Check access** tab, in the **Search by name or email address** text box, type **Dylan Williams**.
+9. On the **AZ500Lab01 \| Access control (IAM)** blade, on the **Check access** tab, in the **Search by name or email address** text box, type **Dylan Williams**.
 
-9. In the list of search results, select the user account of Dylan Williams and, on the **Dylan Williams assignments - AZ500Lab01** blade, view the newly created assignment.
+10. In the list of search results, select the user account of Dylan Williams and, on the **Dylan Williams assignments - AZ500Lab01** blade, view the newly created assignment.
 
-10. Close the **Dylan Williams assignments - AZ500Lab01** blade.
+11. Close the **Dylan Williams assignments - AZ500Lab01** blade.
 
-11. Repeat the same last two steps to check access for **Joseph Price**. 
+12. Repeat the same last two steps to check access for **Joseph Price**. 
 
 > Result: You have assigned and checked RBAC permissions. 
 
