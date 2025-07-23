@@ -66,9 +66,9 @@ In this task, you will create a resource group for the lab an an Azure Container
 
 1. In the Bash session within the Cloud Shell pane, run the following to register Microsoft.insights
 
-   '''sh
+   ```ssh
    az provider register --namespace 'Microsoft.PolicyInsights'
-   '''
+   ```
 
 4. In the Bash session within the Cloud Shell pane, run the following to create a new resource group for this lab:
 
