@@ -273,15 +273,15 @@ In this task, you will create a storage account with a file share and obtain the
 
 8. On the storage account **Overview** blade, click **File Shares** under the **Data storage** tab, and then click **+ File Share**.
 
-9. On the **New file share** blade, untick the **Enable backup** option in the backup tab. 
-
 10. On the **New file share** blade, specify the following settings:
 
     |Setting|Value|
     |---|---|
     |Name|**my-file-share**|
 
-11. On the **New file share** blade, click **Create**.
+9. Click next  On the **Backup tab** blade, untick the **Enable backup** option in the backup tab. 
+
+11. On the **New file share** blade, click **Review + Create** then click **Create**.
 
     >**Note**: Now, retrieve and record the PowerShell script that creates a drive mapping to the Azure file share. 
 
