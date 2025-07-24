@@ -206,6 +206,8 @@ In this task you will create an application rule that allows outbound access to 
 
 6. Click **Add** to add the Target FQDNs-based application rule.
 
+7. Wait for thr Rule to deploy before proceeding to the next task.
+
     >**Note**: Azure Firewall includes a built-in rule collection for infrastructure FQDNs that are allowed by default. These FQDNs are specific for the platform and can't be used for other purposes. 
 
 #### Task 5: Configure a network rule
