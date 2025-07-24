@@ -168,19 +168,21 @@ In this task, you will create a playbook. A security playbook is a collection of
 
     >**Note**: On the **Logic Apps Designer** blade, each of the four s displays a warning. This means that each needs to reviewed and configured.
 
-11. On the **Logic Apps Designer** blade, click the first **s** step.
+11. On the **Logic Apps Designer** blade, click the first step.
 
-12. Click **Add new**, ensure that the entry in the **Tenant** drop down list contains your Azure AD tenant name and click **Sign-in**.
+12. Click **Change connection**
+    
+14. Click **Add new**, ensure that the entry in the **Tenant** drop down list contains your Azure AD tenant name and click **Sign-in**.
 
-13. When prompted, sign in with the user account that has the Owner or Contributor role in the Azure subscription you are using for this lab.
+15. When prompted, sign in with the user account that has the Owner or Contributor role in the Azure subscription you are using for this lab.
 
-14. Click the second **s** step and, in the list of s, select the second entry, representing the  you created in the previous step.
+16. Click the second  step and, in the list of steps, select the second entry, representing the  you created in the previous step.
 
-15. Repeat the previous step for the remaining two **s** steps.
+17. Repeat the previous step for the remaining two  steps.
 
     >**Note**: Ensure there are no warnings displayed on any of the steps.
 
-16. On the **Logic Apps Designer** blade, click **Save** to save your changes.
+18. On the **Logic Apps Designer** blade, click **Save** to save your changes.
 
 #### Task 5: Create a custom alert and configure a playbook as an automated response
 
