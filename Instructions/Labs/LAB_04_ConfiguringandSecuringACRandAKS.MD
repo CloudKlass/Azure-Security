@@ -199,6 +199,8 @@ In this task, you will create an Azure Kubernetes service and review the deploye
 
     >**Note**: Ensure **Bash** is selected in the drop-down menu in the upper-left corner of the Cloud Shell pane.
 
+12. You will need to edit the YAML files later you will need to use the ckassic shell for this, click **Editor** from the shell menu then click **Confirm**
+
 13. In the Bash session within the Cloud Shell pane, run the following to connect to the Kubernetes cluster:
 
     ```sh
