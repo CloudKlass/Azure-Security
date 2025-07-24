@@ -106,9 +106,14 @@ In this task, you will create a user account for Isabel Garcia by using PowerShe
 
 1. **Open the Cloud Shell** by clicking the **Cloud Shell icon** in the top-right corner of the Azure portal.
 
-2. **If prompted, set up Cloud Shell by creating a storage account**. This is required **only the first time** you launch Cloud Shell.
+1. In the Getting started window, leave the default setting as is: Select a subscription to get started. You can optionally mount a storage account to persist files between sessions. No storage account required.
 
-3. In the Cloud Shell pane, **ensure PowerShell is selected** from the drop-down menu in the upper-left corner.
+1. From the Subscription drop-down menu, select your subscription.
+
+1. Leave Use an existing private virtual network unchecked, then click Apply.
+
+
+
 
    >**Note**: To paste copied text into the Cloud Shell, right-click within the pane window and select **Paste**. Alternatively, you can use the **Shift+Insert** key combination.
 
