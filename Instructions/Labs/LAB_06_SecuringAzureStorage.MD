@@ -279,7 +279,7 @@ In this task, you will create a storage account with a file share and obtain the
     |---|---|
     |Name|**my-file-share**|
 
-9. Click next  On the **Backup tab** blade, untick the **Enable backup** option in the backup tab. 
+9. Click next  in the **Backup section** , untick the **Enable backup** option in the backup tab. 
 
 11. On the **New file share** blade, click **Review + Create** then click **Create**.
 
