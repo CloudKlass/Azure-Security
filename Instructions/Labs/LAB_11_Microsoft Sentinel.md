@@ -197,7 +197,7 @@ In this task, you will create a playbook. A security playbook is a collection of
     |Setting|Value|
     |---|---|
     |Name|**Playbook Demo**|
-    |Tactics|**Initial Access**|
+    |MITRE ATT&CK|**Initial Access**|
 
 5. Click **Next: Set rule logic >**.
 
