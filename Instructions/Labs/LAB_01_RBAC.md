@@ -62,9 +62,6 @@ In this task, you will create a user account for Joseph Price.
    |User name|**Joseph**|
    |Name|**Joseph Price**|
 
-5. Click on the copy icon next to the **User name** to copy the full user.
-
-6. Ensure that the **Auto-generate** password is selected, select the **Show password** checkbox to identify the automatically generated password. You would need to provide this password, along with the user name to Joseph. 
 
 7. Click **Create**.
 
@@ -309,7 +306,7 @@ In this exercise, you will complete the following tasks:
    |Assign access to (Under Members Pane)|**User, group, or service principal**|
    |Select (+Select Members)|**Service Desk**|
    
-6. Click next, on the Assignment type tab seclect Active.
+6. Click next, on the Assignment type tab seclect **Active**.
 
 7. Click **Review + assign** twice to create the role assignment.
 
