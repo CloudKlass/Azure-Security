@@ -60,11 +60,15 @@ In this task, you will deploy an Azure VM, which will automatically install Visu
 
 3. On the **Custom deployment** blade, click the **Build your own template in the editor** option.
 
-4. On the **Edit template** blade, click **Load file**, locate the **\\Allfiles\\Labs\\10\\az-500-10_azuredeploy.json** file and click **Open**.
+4. On the **Edit template** blade, click **Load file**, locate the **\\Allfiles\\Labs\\10\\az-500-10_azuredeploy_template.json** file and click **Open**.
 
-5. On the **Edit template** blade, click **Save**.
+5. On the **Edit parameters** blade, click **Save**.
 
-6. On the **Custom deployment** blade, under **Deployment Scope** ensure that the following settings are configured (leave any others with their default values):
+6. On the **Custom deployment** blade, click the **Edit parameters** option.
+
+7. On the **Edit parameters** blade, click **Load file**, locate the **\\Allfiles\\Labs\\10\\az-500-10_azuredeploy_parameters.json** file and click **Open**
+
+8. On the **Custom deployment** blade, under **Deployment Scope** ensure that the following settings are configured (leave any others with their default values):
 
    |Setting|Value|
    |---|---|
@@ -79,7 +83,7 @@ In this task, you will deploy an Azure VM, which will automatically install Visu
 
     >**Note**: To identify Azure regions where you can provision Azure VMs, refer to [**https://azure.microsoft.com/en-us/regions/offers/**](https://azure.microsoft.com/en-us/regions/offers/)
 
-8. Click the **Review and Create** button, and confirm the deployment by clicking the **Create** button. 
+9. Click the **Review and Create** button, and confirm the deployment by clicking the **Create** button. 
 
     >**Note**: This initiates the deployment of the Azure VM and Azure SQL Database required for this lab. 
 
