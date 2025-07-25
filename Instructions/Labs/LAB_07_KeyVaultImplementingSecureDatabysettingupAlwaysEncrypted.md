@@ -380,11 +380,13 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
 9. In the **Connect to Server** dialog box, click **Connect**.
 
-10. Within the **SQL Server Management Studio** console, in the **Object Explorer** pane, expand the **Databases** folder.
+10. Open Edge and complete the setup, you will need this for later.
 
-11. In the **Object Explorer** pane, right-click the **medical** database and click **New Query**.
+11. Within the **SQL Server Management Studio** console, in the **Object Explorer** pane, expand the **Databases** folder.
 
-12. Paste the following code into the query window and click **Execute**. This will create a **Patients** table.
+12. In the **Object Explorer** pane, right-click the **medical** database and click **New Query**.
+
+13. Paste the following code into the query window and click **Execute**. This will create a **Patients** table.
 
      ```sql
      CREATE TABLE [dbo].[Patients](
@@ -400,25 +402,29 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 		[BirthDate] [date] NOT NULL 
      PRIMARY KEY CLUSTERED ([PatientId] ASC) ON [PRIMARY] );
      ```
-13. After the table is created successfully, in the **Object Explorer** pane, expand the **medical** database node, the **tables** node, right-click the **dbo.Patients** node, and click **Encrypt Columns**. 
+14. After the table is created successfully, in the **Object Explorer** pane, expand the **medical** database node, the **tables** node, right-click the **dbo.Patients** node, and click **Encrypt Columns**. 
 
     >**Note**: This will initiate the **Always Encrypted** wizard.
 
-14. On the **Introduction** page, click **Next**.
+15. On the **Introduction** page, click **Next**.
 
-15. On the **Column Selection** page, select the **SSN** and **Birthdate** columns, set the **Encryption Type** of the **SSN** column to **Deterministic** and of the **Birthdate** column to **Randomized**, and click **Next**.
+16. Click **SignIn** and sign in with your Owners account for the subscription, Click **yes, all app** when asked, Click **Done**
+
+17. Click Next.
+
+18. On the **Column Selection** page, select the **SSN** and **Birthdate** columns, set the **Encryption Type** of the **SSN** column to **Deterministic** and of the **Birthdate** column to **Randomized**, and click **Next**.
 
     >**Note**: While performing the encryption if any error thrown like **Exception has been thrown by the target of an innvocation** related to **Rotary(Microsoft.SQLServer.Management.ServiceManagement)** then make sure the **Key Permission's** values of **Rotation Policy Operations** are **unchecked**, if not in the Azure portal navigate to the **Key Vault** >> **Access Policies** >> **Key Permissions** >> Uncheck all the values under the **Rotation Policy Operations** >> Under **Privileged Key Operations** >> Uncheck **Release**.
 
-16. On the **Master Key Configuration** page, select **Azure Key Vault**, click **Sign in**, when prompted, authenticate by using the same user account you used to provision the Azure Key Vault instance earlier in this lab, ensure that that Key Vault appears in the **Select an Azure Key Vault** drop down list, and click **Next**.
+19. On the **Master Key Configuration** page, select **Azure Key Vault**, click **Sign in**, when prompted, authenticate by using the same user account you used to provision the Azure Key Vault instance earlier in this lab, ensure that that Key Vault appears in the **Select an Azure Key Vault** drop down list, and click **Next**.
 
-17. On the **Run Settings** page, click **Next**.
+20. On the **Run Settings** page, click **Next**.
 	
-18. On the **Summary** page, click **Finish** to proceed with the encryption. When prompted, sign in again by using the same user account you used to provision the Azure Key Vault instance earlier in this lab.
+21. On the **Summary** page, click **Finish** to proceed with the encryption. When prompted, sign in again by using the same user account you used to provision the Azure Key Vault instance earlier in this lab.
 
-19. Once the encryption process is complete, on the **Results** page, click **Close**.
+22. Once the encryption process is complete, on the **Results** page, click **Close**.
 
-20. In the **SQL Server Management Studio** console, in the **Object Explorer** pane, under the **medical** node, expand the **Security** and **Always Encrypted Keys** subnodes. 
+23. In the **SQL Server Management Studio** console, in the **Object Explorer** pane, under the **medical** node, expand the **Security** and **Always Encrypted Keys** subnodes. 
 
     >**Note**: The **Always Encrypted Keys** subnode contains the **Column Master Keys** and **Column Encryption Keys** subfolders.
 
