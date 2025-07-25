@@ -364,9 +364,8 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
     >**Note**: The remaining steps in this lab are performed within the Remote Desktop session to the **az500-10-vm1** Azure VM.
 
-6. Open SQL Server Management Studio on **az500-10-vm1.** Azure VM.
  
-7. Open **SQL Server Management Studio.**
+7. Open **SQL Server Management Studio.** on **az500-10-vm1.** Azure VM.
 
 8. In the **Connect to Server** dialog box, specify the following settings: 
 
@@ -439,7 +438,7 @@ In this exercise, you will complete the following tasks:
 
 You will create a Console application using Visual Studio to load data into the encrypted columns and then access that data securely using a connection string that accesses the key in the Key Vault.
 
-1. From the RDP session to the **az500-10-vm1**, launch **Visual Studio 2019** from the **Start menu**.
+1. From the RDP session to the **az500-10-vm1**, launch **Visual Studio 2019** from the **Desktop**.
 
 2. Switch to the window displaying Visual Studio 2019 welcome message, click the **Sign in** button and, when prompted, provide the credntials you used to authenticate to the Azure subscription you are using in this lab.
 
