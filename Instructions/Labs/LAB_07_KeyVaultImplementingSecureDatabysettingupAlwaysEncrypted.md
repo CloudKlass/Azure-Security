@@ -364,7 +364,7 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
     >**Note**: The remaining steps in this lab are performed within the Remote Desktop session to the **az500-10-vm1** Azure VM.
 
-6. Install [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?preserve-view=true&view=sql-server-2017) on **az500-10-vm1.** Azure VM.
+6. Open SQL Server Management Studio on **az500-10-vm1.** Azure VM.
  
 7. Open **SQL Server Management Studio.**
 
