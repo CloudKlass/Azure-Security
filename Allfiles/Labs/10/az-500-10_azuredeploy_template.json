@@ -255,8 +255,8 @@
                     },
                     "imageReference": {
                         "publisher": "microsoftvisualstudio",
-                        "offer": "VisualStudio2019latest",
-                        "sku": "active-dummyplan-for-deprecation-requirement-vs19",
+                        "offer": "VisualStudiowsplustools",
+                        "sku": "vs-2022-com-ws2025-datacenter-azure-gen2",
                         "version": "latest"
                     }
                 },
