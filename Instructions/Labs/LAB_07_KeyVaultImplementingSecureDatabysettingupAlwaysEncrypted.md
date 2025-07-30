@@ -438,7 +438,7 @@ In this exercise, you will complete the following tasks:
 
 You will create a Console application using Visual Studio to load data into the encrypted columns and then access that data securely using a connection string that accesses the key in the Key Vault.
 
-1. From the RDP session to the **az500-10-vm1**, launch **Visual Studio 2019** from the **Desktop**.
+1. From the RDP session to the **az500-10-vm1**, launch **Visual Studio 2022** from the **Desktop**.
 
 2. Switch to the window displaying Visual Studio 2019 welcome message, click the **Sign in** button and, when prompted, provide the credntials you used to authenticate to the Azure subscription you are using in this lab.
 
