@@ -3,7 +3,6 @@ lab:
     title: '07 - Key Vault (Implementing Secure Data by setting up Always Encrypted)'
     module: 'Module 01 - Implement and manage enforcement of cloud governance policies'
 ---
-# This lab is currently undergoing maintance
 # Lab 07: Key Vault (Implementing Secure Data by setting up Always Encrypted)
 
 # Student lab manual
@@ -359,12 +358,15 @@ In this task, you will connect to the SQL Database with SQL Server Management St
     |---|---|
     |Username|**Student**|
     |Password|**Please use your personal password created in Lab 02 > Exercise 1 > Task 1 > Step 9.**|
+   
+
+   >**Note**: The remaining steps in this lab are performed within the Remote Desktop session to the **az500-10-vm1** Azure VM.
     
-    >**Note**: Wait for the Remote Desktop session and **Server Manager** to load. Close Server Manager. 
-
-    >**Note**: The remaining steps in this lab are performed within the Remote Desktop session to the **az500-10-vm1** Azure VM.
-
- 
+6.  Wait for the Remote Desktop session and **Server Manager** to load. Select Local Server and set the Internet Explorer Enchanced Security Configuration to off for both items.
+  
+7. Open the Edge browser and config it for fisrt time use, this will be needed later.
+      
+     
 7. Open **SQL Server Management Studio.** on **az500-10-vm1.** Azure VM.
 
 8. In the **Connect to Server** dialog box, specify the following settings: 
@@ -417,13 +419,15 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
 19. On the **Master Key Configuration** page, select **Azure Key Vault**, You will see that it will show the subscrition and keyvault, click **Next** twice.
 
-20. On the **Run Settings** page, click **Next**.
+>**Note**: you may be prompted for your subscription again
+
+21. On the **Run Settings** page, click **Next**.
 	
-21. On the **Summary** page, click **Finish** to proceed with the encryption. When prompted, sign in again by using the same user account you used to provision the Azure Key Vault instance earlier in this lab.
+22. On the **Summary** page, click **Finish** to proceed with the encryption. When prompted, sign in again by using the same user account you used to provision the Azure Key Vault instance earlier in this lab.
 
-22. Once the encryption process is complete, on the **Results** page, click **Close**.
+23. Once the encryption process is complete, on the **Results** page, click **Close**.
 
-23. In the **SQL Server Management Studio** console, in the **Object Explorer** pane, under the **medical** node, expand the **Security** and **Always Encrypted Keys** subnodes. 
+24. In the **SQL Server Management Studio** console, in the **Object Explorer** pane, under the **medical** node, expand the **Security** and **Always Encrypted Keys** subnodes. 
 
     >**Note**: The **Always Encrypted Keys** subnode contains the **Column Master Keys** and **Column Encryption Keys** subfolders.
 
