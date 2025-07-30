@@ -87,7 +87,7 @@ In this task, you will deploy an Azure VM, which will automatically install Visu
 
     >**Note**: This initiates the deployment of the Azure VM and Azure SQL Database required for this lab. 
 
-    >**Note**: Do not wait for the ARM template deployment to be completed, but instead continue to the next exercise. The deployment might take between **20-25 minutes**. 
+    >**Note**: Do not wait for the ARM template deployment to be completed, but instead continue to the next exercise. The deployment might take between **30-35 minutes**. 
 
 ### Exercise 2: Configure the Key Vault resource with a key and a secret
 
