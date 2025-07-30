@@ -3,7 +3,7 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "location": {
-      "value": "uksouth"
+      "value": "east us"
     },
     "networkInterfaceName": {
       "value": "az500-10-vm1186"
