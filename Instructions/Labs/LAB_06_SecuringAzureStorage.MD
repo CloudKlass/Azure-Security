@@ -297,7 +297,7 @@ In this task, you will create a storage account with a file share and obtain the
 
 16. Select **Manage** under Public network access and then select **Enable from selected networks**.
 
-17. Under **Virtual networks** , click the **+ Add existing virtual network** link. 
+17. Under **Virtual networks** , click **+ Add a virtual network** and **Add existing virtual network**. 
 
 18. on the Add network blade select:
 
