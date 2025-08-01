@@ -295,11 +295,11 @@ In this task, you will create a storage account with a file share and obtain the
 
 15. Navigate back to the storage account blade, then in the **Security + networking** section, click **Networking**.
 
-16. Under **Firewall and virtual networks** select **Enabled from selected virtual networks and IP addresses**.
+16. Select **Manage** under Public network access and then select **Enable from selected networks**.
 
 17. Under **Virtual networks** , click the **+ Add existing virtual network** link. 
 
-18. On the **Add networks** blade, specify the following settings:
+18. on the Add network blade select:
 
     |Setting|Value|
     |---|---|
