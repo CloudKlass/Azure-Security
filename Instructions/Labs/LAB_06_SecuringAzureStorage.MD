@@ -1,7 +1,7 @@
 ---
 lab:
     title: ' 06 - Service Endpoints and Securing Storage'
-    module: 'Module 03 - Plan and implement security for Azure SQL Database and Azure SQL Managed Instance'
+    module: 'Module 03 - Plan and implement security for storage'
 ---
 
 # Lab 06: Service Endpoints and Securing Storage
