@@ -1,7 +1,7 @@
 ---
 lab:
     title: '04 - Configuring and Securing ACR and AKS'
-    module: 'Module 01 - Secure compute, storage, and databases'
+    module: 'Module 03 - Secure compute, storage, and databases'
 ---
 
 # Lab 04: Configuring and Securing ACR and AKS
