@@ -1,7 +1,7 @@
 ---
 lab:
     title: '07 - Key Vault (Implementing Secure Data by setting up Always Encrypted)'
-    module: 'Module 01 - Implement and manage enforcement of cloud governance policies'
+    module: 'Module 04 - Implement and manage enforcement of cloud governance policies'
 ---
 # Lab 07: Key Vault (Implementing Secure Data by setting up Always Encrypted)
 
