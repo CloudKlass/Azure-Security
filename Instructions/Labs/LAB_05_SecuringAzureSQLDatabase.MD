@@ -1,7 +1,7 @@
 ---
 lab:
     title: '05 - Securing Azure SQL Database'
-    module: 'Module 02 - Plan and implement security for Azure SQL Database and Azure SQL Managed Instance'
+    module: 'Module 03 - Plan and implement security for Azure SQL Database and Azure SQL Managed Instance'
 ---
 
 # Lab 05: Securing Azure SQL Database
