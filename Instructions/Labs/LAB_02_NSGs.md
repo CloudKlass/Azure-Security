@@ -1,7 +1,7 @@
 ---
 lab:
     title: '02 - Network Security Groups and Application Security Groups'
-    module: 'Module 01 - Plan and implement security for virtual networks'
+    module: 'Module 02 - Plan and implement security for virtual networks'
 ---
 
 # Lab 02: Network Security Groups and Application Security Groups
