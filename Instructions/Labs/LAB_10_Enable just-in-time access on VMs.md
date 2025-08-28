@@ -1,7 +1,7 @@
 ---
 lab:
     title: '10 - Enable just-in-time access on VMs'    
-    module: 'Module 03 - Configure and manage threat protection by using Microsoft Defender for Cloud'
+    module: 'Module 04 - Configure and manage threat protection by using Microsoft Defender for Cloud'
 ---
 
 # Lab 10: Enable just-in-time access on VMs
