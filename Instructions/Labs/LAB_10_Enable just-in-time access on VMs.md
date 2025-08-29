@@ -68,10 +68,10 @@ In this lab, you will complete the following exercises:
 
    - Azure checks to see if JIT is enabled on that VM.
 
-        - If JIT isn't enabled for the VM, you're prompted to enable it.
+         
+        - Select **Request JIT + check access** to pass an access request with the requesting IP, time range, and ports that were configured for that VM.
     
-        - If JIT is enabled, select **Request access** to pass an access request with the requesting IP, time range, and ports that were configured for that VM.
-    
-   ![image](https://github.com/user-attachments/assets/f5d0b67c-7731-4261-b0eb-a56c505dadd4)
+ 
+   ![Request JIT + check access.](../media/connect-rdp-jit.png)
 
 > **Results**: You have explored various methods on how to enable JIT on your VMs and how to request access to VMs that have JIT enabled in Microsoft Defender for Cloud.
