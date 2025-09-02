@@ -333,6 +333,7 @@ In this task, you will deploy the internal facing service on the AKS.
 5.  In the Bash session within the Cloud Shell pane, review the output to verify your deployment and the service have been created:
 
     ```
+    Some Markdown text with <span style="color:blue">some *blue* text</span>.
     deployment.apps/nginxinternal created
     service/nginxinternal created
     ```
