@@ -287,10 +287,10 @@ In this task,  you will download the Manifest files, edit the YAML file, and app
 
 7. In the Bash session within the Cloud Shell pane, review the output of the command you run in the previous task to verify that the deployment and the corresponding service have been created. 
 
-    ```
+   $${\color{Blue}```
     deployment.apps/nginxexternal created
     service/nginxexternal created
-    ```
+    ``` }$$
 
 #### Task 6: Verify the you can access an external AKS-hosted service
 
