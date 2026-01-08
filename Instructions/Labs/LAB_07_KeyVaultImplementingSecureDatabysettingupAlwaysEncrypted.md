@@ -16,7 +16,7 @@ You have been asked to create a proof of concept application that makes use of t
 
 >**Note**: For all the resources in this lab, we are using the **East US** region. Verify with your instructor this is the region to use for class. 
 
-To keep the focus on the security aspects of Azure, related to building this proof of concept, you will start from an automated ARM template deployment, setting up a Virtual Machine with Visual Studio 2019 and SQL Server Management Studio 19.
+To keep the focus on the security aspects of Azure, related to building this proof of concept, you will start from an automated ARM template deployment, setting up a Virtual Machine with Visual Studio 2022 and SQL Server Management Studio 20.
 
 ## Lab objectives
 
@@ -320,7 +320,7 @@ The ARM-template deployment in Exercise 1 provisioned an Azure SQL Server instan
 
     >**Note**: When you use the connection string, make sure to replace the `{your_password}` placeholder with the password that you configured with the deployment in Exercise 1.
 
-#### Task 4: Log on to the Azure VM running Visual Studio 2019 and SQL Management Studio 19
+#### Task 4: Log on to the Azure VM running Visual Studio 2022 and SQL Management Studio 20
 
 In this task, you log on to the Azure VM, which deployment you initiated in Exercise 1. This Azure VM hosts Visual Studio 2019 and SQL Server Management Studio 19.
 
@@ -409,7 +409,7 @@ In this task, you will connect to the SQL Database with SQL Server Management St
 
 15. On the **Introduction** page, click **Next**.
 
-16. Click **SignIn** and sign in with your Owners account for the subscription, Click **yes, all app** when asked, Click **Done**
+16. Click **SignIn** and sign in with your Owners account for the subscription, if asked Click **yes, all app**, Click **Done**
 
 17. Click Next.
 
@@ -444,7 +444,7 @@ You will create a Console application using Visual Studio to load data into the 
 
 1. From the RDP session to the **az500-10-vm1**, launch **Visual Studio 2022** from the **Desktop**.
 
-2. Switch to the window displaying Visual Studio 2019 welcome message, click the **Sign in** button and, when prompted, provide the credntials you used to authenticate to the Azure subscription you are using in this lab.
+2. Switch to the window displaying Visual Studio 2022 welcome message, click the **Sign in** button and, when prompted, provide the credntials you used to authenticate to the Azure subscription you are using in this lab.
 
 3. On the **Get started** page, click **Create a new project**. 
 
