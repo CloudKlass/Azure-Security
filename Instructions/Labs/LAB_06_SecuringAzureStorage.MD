@@ -331,7 +331,7 @@ In this task, you will create two virtual machines one in the Private subnet and
     |Resource group|**AZ500LAB12**|
     |Virtual machine name|**myVmPrivate**|
     |Region|**(US)East US**|
-    |Availability options|**No Infrastructure redundacny required**|
+    |Availability options|**No Infrastructure redundancy required**|
     |Image|**Windows Server 2022 Datacenter: Azure Edition x64 Gen 2**|
     |Username|**Student**|
     |Password|**Please use your personal password created in Lab 02 > Exercise 2 > Task 1 > Step 3.**|
@@ -367,7 +367,7 @@ In this task, you will create two virtual machines one in the Private subnet and
     |Resource group|**AZ500LAB12**|
     |Virtual machine name|**myVmPublic**|
     |Region|**(US)East US**|
-    |Availability options|**No Infrastructure redundacny required**|
+    |Availability options|**No Infrastructure redundancy required**|
     |Image|**Windows Server 2022 Datacenter: Azure Edition x64 Gen 2**|
     |Username|**Student**|
     |Password|**Please use your personal password created in Lab 02 > Exercise 1 > Task 1 > Step 9.**|
